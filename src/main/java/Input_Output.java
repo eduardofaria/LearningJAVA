@@ -1,7 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Main {
+public class Input_Output {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         double number = 10.345;
@@ -22,7 +22,6 @@ public class Main {
         int novoNumero;
 
         novoNumero = sc.nextInt();
-
         System.out.println("Digitou \"" + input + "\" Agora digitou um número: " + novoNumero + " Primeira letra é " + input.charAt(0));
         System.out.println("Texto longo é: " + longText);
 
